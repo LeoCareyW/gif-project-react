@@ -3,6 +3,7 @@ import SearchBar from './search_bar.jsx';
 import Gif from './gif.jsx';
 import GifList from './gif_list.jsx';
 import giphy from 'giphy-api';
+import List from './list2.jsx';
 
 
 
@@ -37,6 +38,9 @@ class App extends Component {
   render() {
     return (
       <div>
+      <div>
+        <List name="Leo"/>
+      </div>
         <div className="left-scene">
           <SearchBar searchFunction={this.search} />
         <div className="selected-gif">
