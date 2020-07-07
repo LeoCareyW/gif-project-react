@@ -4,6 +4,7 @@ import Gif from './gif.jsx';
 import GifList from './gif_list.jsx';
 import giphy from 'giphy-api';
 import List from './list2.jsx';
+import List2 from './list3.jsx';
 
 
 
@@ -39,7 +40,7 @@ class App extends Component {
     return (
       <div>
       <div>
-        <List name="Leo"/>
+        <List2 name="Bob" />
       </div>
         <div className="left-scene">
           <SearchBar searchFunction={this.search} />
